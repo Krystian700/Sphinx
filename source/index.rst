@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Witojcie to Sphinx Lab's documentation!
-=======================================
+Welcome to Sphinx Lab's documentation!
+======================================
 
 .. toctree::
    :maxdepth: 2
