@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Witojcie to Sphinx Lab's documentation!
-======================================
+=======================================
 
 .. toctree::
    :maxdepth: 2
