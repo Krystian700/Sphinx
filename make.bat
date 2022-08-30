@@ -1,6 +1,8 @@
 @ECHO OFF
-echo Podaj nazwe commita:
-set /p Commit=
+echo Chcesz od razu przesłac do repozytorium?
+set /p wybor=T/N 
+if /I "%wybor%"=="T" goto Tak
+goto Nie
 
 pushd %~dp0
 
@@ -36,14 +38,21 @@ goto end
 :end
 popd
 
+xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H
+
+:Tak
+echo Podaj nazwe commita:
+set /p Commit=
+
 git add . 
 git commit -m "%Commit%"
 git push
-
-xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H
 
 cd ..
 cd Strona
 git add .
 git commit -m "%Commit%"
 git push
+
+:Nie
+pause
