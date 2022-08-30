@@ -1,6 +1,7 @@
 @ECHO OFF
-echo %1
-print %1
+echo Podaj nazwe commita:
+set /p Commit:
+
 pushd %~dp0
 
 REM Command file for Sphinx documentation
@@ -36,7 +37,7 @@ goto end
 popd
 
 git add . 
-git commit -m 'test'
+git commit -m "Commit"
 git push
 
 xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H
