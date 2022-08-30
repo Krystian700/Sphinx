@@ -3,17 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Sphinx Lab's documentation!
-======================================
-Sprawdzamy rozgalezienie skryptu
+Witam w moim notesie 
+====================
+Notes gromadzący moje wprawki w języku Sphinx a także inny stuff
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+	:maxdepth: 2
+	:caption: Contents:
+	
+	Sphinx Lab
+	Bash Script
+	Python
 
-
-
-Indices and tables
+Index i tablice
 ==================
 
 * :ref:`genindex`

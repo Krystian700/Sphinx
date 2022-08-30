@@ -36,7 +36,7 @@ popd
 
 xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H /Y
 
-echo Chcesz od razu przesłac do repozytorium?
+echo Chcesz od razu przeslac do repozytorium?
 set /p wybor=T/N 
 if /I "%wybor%"=="T" goto Tak
 goto Nie

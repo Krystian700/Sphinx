@@ -1,0 +1,1 @@
+.. include:: /Bash Script/Bash_Script.rst
