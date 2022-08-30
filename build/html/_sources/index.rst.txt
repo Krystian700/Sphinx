@@ -5,6 +5,7 @@
 
 Welcome to Sphinx Lab's documentation!
 ======================================
+No to teraz trzeba by ru jakis content wlozyc. 
 
 .. toctree::
    :maxdepth: 2
