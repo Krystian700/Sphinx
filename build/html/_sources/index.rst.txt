@@ -14,7 +14,8 @@ Notes gromadzący moje wprawki w języku Sphinx a także inny stuff
 	Sphinx Lab
 	Bash Script
 	Python
-
+	Git
+	
 Index i tablice
 ==================
 
