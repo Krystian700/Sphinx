@@ -5,7 +5,7 @@
 
 Welcome to Sphinx Lab's documentation!
 ======================================
-Fajnie wszystko dziala Yuppiii !!!
+Sprawdzamy rozgalezienie skryptu
 
 .. toctree::
    :maxdepth: 2

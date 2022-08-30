@@ -34,7 +34,7 @@ goto end
 :end
 popd
 
-xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H
+xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H /Y
 
 echo Chcesz od razu przesłac do repozytorium?
 set /p wybor=T/N 
