@@ -33,3 +33,13 @@ goto end
 
 :end
 popd
+
+xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H
+git add . 
+git commit -m 'test'
+git push
+cd ..
+cd Strona
+git add .
+git commit -m 'test'
+git push
