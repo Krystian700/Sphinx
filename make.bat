@@ -1,6 +1,6 @@
 @ECHO OFF
 echo Podaj nazwe commita:
-set /p Commit:
+set /p Commit=
 
 pushd %~dp0
 
@@ -37,7 +37,7 @@ goto end
 popd
 
 git add . 
-git commit -m "Commit"
+git commit -m "%Commit%"
 git push
 
 xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H
@@ -45,5 +45,5 @@ xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H
 cd ..
 cd Strona
 git add .
-git commit -m '%1'
+git commit -m "%Commit%"
 git push
