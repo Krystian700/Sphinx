@@ -5,7 +5,7 @@
 
 Welcome to Sphinx Lab's documentation!
 ======================================
-
+co by tu napisac?
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
