@@ -1,7 +1,5 @@
 @ECHO OFF
-
-read test
-
+echo %1
 pushd %~dp0
 
 REM Command file for Sphinx documentation
@@ -45,5 +43,5 @@ xcopy C:\Programy\GIT\Sphinx\build\html\*.* c:\Programy\GIT\Strona /E /H
 cd ..
 cd Strona
 git add .
-git commit -m 'test'
+git commit -m %1
 git push
