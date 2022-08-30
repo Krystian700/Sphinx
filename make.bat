@@ -2,7 +2,7 @@
 echo Chcesz od razu przesłac do repozytorium?
 set /p wybor=T/N 
 if /I "%wybor%"=="T" goto Tak
-goto Nie
+else goto Nie
 
 :Tak
 
