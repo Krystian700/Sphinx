@@ -37,6 +37,7 @@ Zadania
 1) Napisac wersje zmodfikowanego make.bat pod Linux
 2) znalezc sposob by mozna bylo komitowac z linuxa lub windowsa bez edcji skryptu
 3) napisac skrypt na przekopiowywanie zawartosci folderu do innej lokalizacji
+4) skonfigurowac poprawnie menagera credentiali - czy CGM dziala w ogole? 
 
 
 
