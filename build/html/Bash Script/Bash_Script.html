@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Git &mdash; Sphinx Lab 1.0.0 documentation</title>
+  <title>Bash Script &mdash; Sphinx Lab 1.0.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -59,9 +59,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Git</li>
+      <li>Bash Script</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/Git/Git.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/Bash Script/Bash_Script.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -69,9 +69,56 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="git">
-<h1>Git<a class="headerlink" href="#git" title="Permalink to this heading"></a></h1>
-<p>Najczęściej używane komendy Git</p>
+  <section id="bash-script">
+<h1>Bash Script<a class="headerlink" href="#bash-script" title="Permalink to this heading"></a></h1>
+<p>Skrypty bashowe</p>
+<ul class="simple">
+<li><p>Poniższa modyfikacja dziala tylko w Windows. Zadanie - zbadac jak taki skrypt napisac w linuksie a najlepiej zeby mozna bylo zapewnic taka sama funkcjonalnosc w linuksie i windowsie. Na razie nie wiem jak to zrobić ale pewnie sie jakos da.</p></li>
+</ul>
+<p>Baza dla zmian byl skrypt <em>make.bat</em> ktory jest tworzony przez Shpinxa w folderze projektu po uruchomieniu komendy
+<em>Sphinx-Quickstart</em>. Uruchomienie komendy <em>make html</em> uruchamia Sphinxa na kodzie projektu
+i tworzy pliki HTML w folderze <em>/build/html</em></p>
+<p>Funkcjonalnosc skryptu zostala poszerzona:</p>
+<ul>
+<li><p>Standardowa funkcjonalnosc</p></li>
+<li><p>Kopiowanie nowo wygenerowanych plikow do projektu <em>Strona</em></p></li>
+<li><p>Zapytanie czy pliki maja zostac wyslane do repozytorium</p>
+<blockquote>
+<div><ul>
+<li><p>Jesli tak</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>skrypt prosi o nazwe commita</p></li>
+<li><p>skrypt wysyla commit do repozytorium <em>Strona</em> i <em>Sphinx</em></p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Jesli nie</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>zakonczenie dzialania skryptu</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>Efekt dzialania skryptu:</p>
+<ul class="simple">
+<li><p>Utworzenie plikow HTML</p></li>
+<li><p>Przekopiowanie nowych plikow do projektu <em>Strona</em></p></li>
+<li><p>Uaktualnienie repozytoriow <em>Strona</em> i <em>Sphinx</em></p></li>
+</ul>
+<p>Jest to bardzo wygodne rozwiazanie. Jedno klikniecie aktualizuje oba repozytoria oraz strone hostowana bezposrednio z servera GitHub.</p>
+</section>
+<section id="zadania">
+<h1>Zadania<a class="headerlink" href="#zadania" title="Permalink to this heading"></a></h1>
+<ol class="arabic simple">
+<li><p>Napisac wersje zmodfikowanego make.bat pod Linux</p></li>
+<li><p>znalezc sposob by mozna bylo komitowac z linuxa lub windowsa bez edcji skryptu</p></li>
+<li><p>napisac skrypt na przekopiowywanie zawartosci folderu do innej lokalizacji</p></li>
+</ol>
 </section>
 
 
